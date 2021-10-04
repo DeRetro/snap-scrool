@@ -1,0 +1,15 @@
+//button 
+button{
+    color: $ascent-colr;
+    padding: 10px 30px;
+    border: none;
+    font-size: 0.6rem;
+    border-radius: 50px;
+    background-color: $light-color;
+
+    &:hover{
+        box-shadow: 0 0 0pt 3pt $light-color;
+        background-color:transparent ;
+        color: $light-color;
+    } 
+}

@@ -1,0 +1,30 @@
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+    section{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: start;
+    }
+
+    .one{
+        background-color: $pri-green;
+    }
+    .two{
+        background-color: $pri-red;
+    }
+    .three{
+        background-color: $pri-blue;
+    }
+    .four{
+        background-color: $pri-pink;
+    }
+}
